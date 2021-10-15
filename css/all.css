@@ -1,0 +1,103 @@
+* {
+  font-family: "Inter", sans-serif;
+  color: #1e293b;
+}
+
+.strong {
+  font-weight: 500;
+}
+
+/* Container */
+.navbar {
+  font-size: 18px;
+  background-color: #ffffffd9;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  padding-top: 11px;
+  padding-bottom: 11px;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: rgb(0, 0, 0);
+}
+
+.navbar-brand {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.nav-link {
+  display: block;
+  padding: 0rem 1rem;
+  color: #0d6efd;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s;
+}
+
+/* Utility In Content */
+.name {
+  font-family: "Crimson Pro", serif;
+  font-size: 60px;
+  color: rgb(0, 0, 0);
+}
+
+.personalDesc {
+  font-size: 21px;
+  width: 590px;
+  margin: 20px auto 0px;
+}
+
+.personalDesc.two {
+  width: 500px;
+}
+
+.desc {
+  padding-top: 227px;
+  padding-bottom: 167px;
+}
+
+/* In Screen Media */
+@media screen and (min-width: 1280px) {
+  .screen {
+    width: 100%;
+    padding-right: 188px;
+    padding-left: 188px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .desc {
+    padding-top: 151px;
+    padding-bottom: 167px;
+  }
+
+  .name {
+    font-size: 31px;
+  }
+
+  .personalDesc {
+    font-size: 16px;
+    width: 100%;
+  }
+
+  .personalDesc.two {
+    font-size: 16px;
+    width: 100%;
+  }
+
+  .screen {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
